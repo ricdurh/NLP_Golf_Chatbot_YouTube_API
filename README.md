@@ -19,5 +19,3 @@ Because of the lack of punctuation, textwrap is used to end the sentences at rou
 The OpenAI chatbot is created by first getting an API key from OpenAI. From there, the API key is privately stored in Google Cloud. Then, LlamaIndex is the interface between the text data and the OpenAI LLM. A lot of this material is constantly evolving, so the most helpful resources for this process were [LlamaIndex](https://docs.llamaindex.ai/en/stable/understanding/putting_it_all_together/chatbots/building_a_chatbot.html) and [this](https://shweta-lodha.medium.com/create-chatbot-based-on-the-data-feed-by-you-gpt-index-llamaindex-openai-3efd7abe3ed9) article on the topic. With more time, I'd like to explore how the following parameters can improve the accuracy of the model: max_input, tokens, chunk_size, chunk_overlap_ratio, and temperature. I used the ‘text-davinci-003’ model from OpenAI and created the index using promptHelper, llmPredictor and GPTVectorStoreIndex. Here is an example of the results from the chatbot:
 
 ![](/images/_nlp_golf_transcripts.png)
-
-<img src="/images/_nlp_golf_openai_chatbot.png" width="1000">
