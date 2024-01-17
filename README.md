@@ -11,7 +11,7 @@ The biggest obstacle to the dataset is the lack of punctuation in the transcript
 
 ## Results
 
-![](/images/_nlp_golf_top10_tfidf.png | width=100)
+![](/images/_nlp_golf_top10_tfidf.png | width=20)
 
 
 ### TF-IDF
